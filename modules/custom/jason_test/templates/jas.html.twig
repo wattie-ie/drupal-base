@@ -1,0 +1,22 @@
+{#
+/**
+ * @file jas.html.twig
+ * Default theme implementation to present Jas data.
+ *
+ * This template is used when viewing Jas pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_jas()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('jas') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

@@ -1,0 +1,30 @@
+add jas entities:
+  title: 'Create new Jas entities'
+
+administer jas entities:
+  title: 'Administer Jas entities'
+  description: 'Allow to access the administration form to configure Jas entities.'
+  restrict access: true
+
+delete jas entities:
+  title: 'Delete Jas entities'
+
+edit jas entities:
+  title: 'Edit Jas entities'
+
+view published jas entities:
+  title: 'View published Jas entities'
+
+view unpublished jas entities:
+  title: 'View unpublished Jas entities'
+
+view all jas revisions:
+  title: 'View all Jas revisions'
+
+revert all jas revisions:
+  title: 'Revert all Jas revisions'
+  description: 'Role requires permission <em>view Jas revisions</em> and <em>edit rights</em> for jas entities in question or <em>administer jas entities</em>.'
+
+delete all jas revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Jas revisions</em> and <em>delete rights</em> for jas entities in question or <em>administer jas entities</em>.'

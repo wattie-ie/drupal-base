@@ -1,0 +1,5 @@
+entity.jas.add_form:
+  route_name: entity.jas.add_form
+  title: 'Add Jas'
+  appears_on:
+    - entity.jas.collection
