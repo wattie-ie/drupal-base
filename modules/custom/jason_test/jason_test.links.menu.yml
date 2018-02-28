@@ -1,0 +1,14 @@
+
+# Jas menu items definition
+entity.jas.collection:
+  title: 'Jas list'
+  route_name: entity.jas.collection
+  description: 'List Jas entities'
+  parent: system.admin_structure
+  weight: 100
+
+jas.admin.structure.settings:
+  title: 'Jas settings'
+  description: 'Configure Jas entities'
+  route_name: jas.settings
+  parent: system.admin_structure

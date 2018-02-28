@@ -1,0 +1,14 @@
+{
+  "name": "drupal/jason_test",
+  "type": "drupal-module",
+  "description": "My Awesome Module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/jason_test",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/jason_test",
+    "source": "http://cgit.drupalcode.org/jason_test"
+  },
+  "require": { }
+}

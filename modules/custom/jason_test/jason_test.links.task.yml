@@ -1,0 +1,27 @@
+# Jas routing definition
+jas.settings_tab:
+  route_name: jas.settings
+  title: 'Settings'
+  base_route: jas.settings
+
+entity.jas.canonical:
+  route_name: entity.jas.canonical
+  base_route: entity.jas.canonical
+  title: 'View'
+
+entity.jas.edit_form:
+  route_name: entity.jas.edit_form
+  base_route: entity.jas.canonical
+  title: 'Edit'
+
+entity.jas.version_history:
+  route_name: entity.jas.version_history
+  base_route: entity.jas.canonical
+  title: 'Revisions'
+
+entity.jas.delete_form:
+  route_name:  entity.jas.delete_form
+  base_route:  entity.jas.canonical
+  title: Delete
+  weight: 10
+

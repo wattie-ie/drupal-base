@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains jason_test.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function jason_test_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the jason_test module.
+    case 'help.page.jason_test':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function jason_test_theme() {
+  return [
+    'jason_test' => [
+      'render element' => 'children',
+    ],
+  ];
+}
