@@ -244,7 +244,8 @@ class jas extends RevisionableContentEntityBase implements jasInterface {
       ])
       ->setDisplayConfigurable('form', TRUE)
       ->setDisplayConfigurable('view', TRUE)
-      ->setRequired(TRUE);
+      ->setRequired(TRUE)
+      ->addConstraint('unique_title');
 
     $fields['status'] = BaseFieldDefinition::create('boolean')
       ->setLabel(t('Publishing status'))
